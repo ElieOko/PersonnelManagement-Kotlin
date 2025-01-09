@@ -51,8 +51,8 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.window)
     implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.window)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
